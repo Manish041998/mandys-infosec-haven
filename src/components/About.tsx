@@ -5,23 +5,23 @@ const About = () => {
   const expertise = [
     {
       icon: Shield,
-      title: "Threat Analysis",
-      description: "Advanced threat detection and analysis using cutting-edge security tools and methodologies."
+      title: "Threat Hunting & Detection",
+      description: "Advanced threat hunting using SIEM tools, custom KQL queries, and behavioral analysis for proactive threat identification."
     },
     {
       icon: Search,
-      title: "Vulnerability Assessment",
-      description: "Comprehensive security assessments to identify and mitigate potential vulnerabilities."
+      title: "Malware Analysis & Forensics",
+      description: "Expert in static/dynamic malware analysis using tools like Ghidra, IDA Pro, ANY.RUN, and comprehensive digital forensics."
     },
     {
       icon: Lock,
-      title: "Security Architecture",
-      description: "Designing and implementing robust security frameworks and protocols."
+      title: "Incident Response & SIEM",
+      description: "Leading incident response operations with Microsoft Sentinel, ELK Stack, and coordinating cross-functional security teams."
     },
     {
       icon: AlertTriangle,
-      title: "Incident Response",
-      description: "Rapid response and forensic analysis for security incidents and breaches."
+      title: "Vulnerability Management",
+      description: "Comprehensive penetration testing and vulnerability assessments using Nessus, Burp Suite, Metasploit, and Kali Linux."
     }
   ];
 
@@ -44,42 +44,42 @@ const About = () => {
             <h3 className="text-2xl font-bold mb-6 text-foreground">Professional Journey</h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                As an Information Security Analyst, I specialize in assessing the adequacy 
-                and effectiveness of enterprise-wide information security controls. My expertise 
-                spans across various security domains including risk assessment, compliance, 
-                and security architecture.
+                Currently serving as an Information Security Analyst at Resillion, I manage 
+                proactive threat detection and continuous monitoring across diverse client environments. 
+                My expertise spans advanced SIEM tools (Sentinel, ELK), XDR platforms, and forensic analysis.
               </p>
               <p>
-                I have extensive experience in evaluating security frameworks, conducting 
-                vulnerability assessments, and implementing security measures that align with 
-                industry best practices and regulatory requirements.
+                Promoted from SOC Analyst L1 to L2 within a year at Atech, I've demonstrated 
+                exceptional leadership in security operations. I specialize in malware analysis, 
+                incident response, and developing custom detection rules using KQL and PowerShell.
               </p>
               <p>
-                My approach combines technical expertise with strategic thinking to ensure 
-                comprehensive security posture across complex enterprise environments.
+                Recognized with the Best Employee Award at Resillion within six months, I continue 
+                to expand into Detection Engineering while mentoring teams and enhancing security postures 
+                through comprehensive vulnerability assessments and penetration testing.
               </p>
             </div>
           </div>
 
           <div className="relative">
             <Card className="p-8 bg-card border-border shadow-subtle">
-              <h4 className="text-xl font-semibold mb-4 text-cyber-glow">Professional Focus</h4>
+              <h4 className="text-xl font-semibold mb-4 text-cyber-glow">Key Achievements</h4>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-cyber-glow rounded-full" />
-                  Enterprise Security Controls Assessment
+                  Best Employee Award at Resillion (6 months)
                 </li>
                 <li className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-cyber-glow rounded-full" />
-                  Risk Management & Compliance
+                  Promoted L1 → L2 SOC Analyst (1 year)
                 </li>
                 <li className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-cyber-glow rounded-full" />
-                  Security Framework Implementation
+                  Microsoft Cybersecurity Architect Certified
                 </li>
                 <li className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-cyber-glow rounded-full" />
-                  Application Security Development
+                  Team Leadership & Detection Engineering
                 </li>
               </ul>
             </Card>

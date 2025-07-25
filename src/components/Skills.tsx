@@ -4,41 +4,55 @@ import { Badge } from "@/components/ui/badge";
 const Skills = () => {
   const skillCategories = [
     {
-      category: "Security Tools",
+      category: "SIEM & XDR Platforms",
       skills: [
-        "Nessus", "Metasploit", "Nmap", "Wireshark", "Burp Suite",
-        "OWASP ZAP", "Qualys", "Rapid7", "Splunk", "ELK Stack"
+        "Microsoft Sentinel", "ELK Stack", "Microsoft Defender for Endpoint", 
+        "CrowdStrike Falcon", "Sysmon", "Microsoft 365 Defender", "Exchange Online Protection"
       ]
     },
     {
-      category: "Programming & Scripting",
+      category: "Malware Analysis & Forensics",
       skills: [
-        "Python", "PowerShell", "Bash", "SQL", "JavaScript",
-        "C++", "Go", "Regex", "JSON", "XML"
+        "Ghidra", "IDA Pro", "OllyDBG", "ANY.RUN", "PEStudio", "ProcMon",
+        "strings", "FLARE VM", "Wireshark", "Autopsy"
       ]
     },
     {
-      category: "Frameworks & Standards",
+      category: "Vulnerability & Penetration Testing",
       skills: [
-        "NIST", "ISO 27001", "OWASP", "CIS Controls", "COBIT",
-        "SOC 2", "PCI DSS", "HIPAA", "GDPR", "MITRE ATT&CK"
+        "Nessus", "Qualys", "Burp Suite", "Metasploit", "Kali Linux", 
+        "Nmap", "PuTTY", "CVSS Scoring", "Patch Validation"
       ]
     },
     {
-      category: "Cloud & Infrastructure",
+      category: "Scripting & Query Languages",
       skills: [
-        "AWS Security", "Azure Security", "GCP Security", "Docker",
-        "Kubernetes", "Terraform", "Ansible", "Jenkins", "Git", "Linux"
+        "KQL (Kusto Query Language)", "PowerShell", "Bash", "Python", 
+        "Sigma Rules", "Custom Detection Rules", "Hunting Queries"
+      ]
+    },
+    {
+      category: "Cloud & Virtualization",
+      skills: [
+        "Microsoft Azure", "Defender for Cloud", "Docker", "VMware",
+        "Windows Server", "Linux (Ubuntu, Kali)", "NTFS/EXT File Systems"
+      ]
+    },
+    {
+      category: "Threat Intelligence & Frameworks",
+      skills: [
+        "MITRE ATT&CK Framework", "Threat Hunting", "Behavioral Analysis",
+        "IOC Analysis", "TTP Mapping", "Kill Chain Analysis"
       ]
     }
   ];
 
   const certifications = [
-    "CISSP - Certified Information Systems Security Professional",
-    "CEH - Certified Ethical Hacker",
-    "GSEC - GIAC Security Essentials",
-    "Security+ - CompTIA Security+",
-    "CCSP - Certified Cloud Security Professional"
+    "SC-100 - Microsoft Cybersecurity Architect",
+    "SC-200 - Security Operations Analyst Associate", 
+    "AZ-500 - Azure Security Engineer Associate",
+    "ISC2 CC - Certified in Cybersecurity",
+    "Kusto Detective Agency - Case #1 Badge"
   ];
 
   return (

@@ -9,8 +9,8 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "contact@getsmandy.in",
-      href: "mailto:contact@getsmandy.in"
+      value: "saimanish041998@gmail.com",
+      href: "mailto:saimanish041998@gmail.com"
     },
     {
       icon: MapPin,
@@ -27,8 +27,8 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      value: "View my projects",
-      href: "https://github.com"
+      value: "github.com/Manish041998",
+      href: "https://github.com/Manish041998"
     }
   ];
 
@@ -80,15 +80,15 @@ const Contact = () => {
 
             <Card className="p-6 bg-card border-border">
               <h4 className="text-lg font-semibold mb-4 text-cyber-glow">
-                Areas of Expertise
+                Current Focus Areas
               </h4>
               <ul className="space-y-2 text-muted-foreground">
-                <li>• Security Audits & Penetration Testing</li>
-                <li>• Vulnerability Assessments</li>
-                <li>• Incident Response & Forensics</li>
-                <li>• Security Architecture Design</li>
-                <li>• Compliance & Risk Management</li>
-                <li>• Security Training & Consulting</li>
+                <li>• Threat Hunting & Detection Engineering</li>
+                <li>• Advanced Malware Analysis & Reverse Engineering</li>
+                <li>• SIEM Implementation & Custom Rule Development</li>
+                <li>• Incident Response & Digital Forensics</li>
+                <li>• Security Awareness Training & Phishing Simulations</li>
+                <li>• Vulnerability Assessment & Penetration Testing</li>
               </ul>
             </Card>
           </div>
