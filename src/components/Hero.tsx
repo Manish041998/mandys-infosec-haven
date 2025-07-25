@@ -26,14 +26,14 @@ const Hero = () => {
       <div className="relative z-20 text-center max-w-4xl mx-auto px-6">
         <div className="mb-8">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-accent bg-clip-text text-transparent leading-tight">
-            Smandy
+            Sai M
           </h1>
           <div className="text-xl md:text-2xl text-cyber-glow-soft mb-4 font-medium">
             Information Security Analyst
           </div>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Protecting digital assets and building secure infrastructures with expertise in 
-            threat analysis, vulnerability assessment, and cybersecurity best practices.
+            Cybersecurity professional specializing in enterprise security assessments, 
+            threat analysis, and implementing robust security controls to protect digital infrastructure.
           </p>
         </div>
 
@@ -51,16 +51,16 @@ const Hero = () => {
         {/* Stats or Quick Info */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-2xl mx-auto">
           <div className="text-center">
-            <div className="text-2xl font-bold text-cyber-glow">5+</div>
-            <div className="text-sm text-muted-foreground">Years Experience</div>
+            <div className="text-2xl font-bold text-cyber-glow">Enterprise</div>
+            <div className="text-sm text-muted-foreground">Security Focus</div>
           </div>
           <div className="text-center">
-            <div className="text-2xl font-bold text-cyber-glow">50+</div>
-            <div className="text-sm text-muted-foreground">Security Audits</div>
+            <div className="text-2xl font-bold text-cyber-glow">Risk</div>
+            <div className="text-sm text-muted-foreground">Assessment Expert</div>
           </div>
           <div className="text-center">
-            <div className="text-2xl font-bold text-cyber-glow">100%</div>
-            <div className="text-sm text-muted-foreground">Client Satisfaction</div>
+            <div className="text-2xl font-bold text-cyber-glow">Security</div>
+            <div className="text-sm text-muted-foreground">Control Specialist</div>
           </div>
         </div>
       </div>

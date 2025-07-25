@@ -41,44 +41,45 @@ const About = () => {
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
-            <h3 className="text-2xl font-bold mb-6 text-foreground">My Journey</h3>
+            <h3 className="text-2xl font-bold mb-6 text-foreground">Professional Journey</h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                With over 5 years of experience in information security, I specialize in 
-                identifying vulnerabilities, implementing security measures, and ensuring 
-                compliance with industry standards.
+                As an Information Security Analyst, I specialize in assessing the adequacy 
+                and effectiveness of enterprise-wide information security controls. My expertise 
+                spans across various security domains including risk assessment, compliance, 
+                and security architecture.
               </p>
               <p>
-                My expertise spans across various domains including network security, 
-                application security, cloud security, and risk management. I'm committed 
-                to staying ahead of emerging threats and continuously enhancing security postures.
+                I have extensive experience in evaluating security frameworks, conducting 
+                vulnerability assessments, and implementing security measures that align with 
+                industry best practices and regulatory requirements.
               </p>
               <p>
-                I believe in a proactive approach to cybersecurity, combining technical 
-                expertise with strategic thinking to build comprehensive security solutions.
+                My approach combines technical expertise with strategic thinking to ensure 
+                comprehensive security posture across complex enterprise environments.
               </p>
             </div>
           </div>
 
           <div className="relative">
             <Card className="p-8 bg-card border-border shadow-subtle">
-              <h4 className="text-xl font-semibold mb-4 text-cyber-glow">Core Values</h4>
+              <h4 className="text-xl font-semibold mb-4 text-cyber-glow">Professional Focus</h4>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-cyber-glow rounded-full" />
-                  Continuous Learning & Adaptation
+                  Enterprise Security Controls Assessment
                 </li>
                 <li className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-cyber-glow rounded-full" />
-                  Proactive Security Mindset
+                  Risk Management & Compliance
                 </li>
                 <li className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-cyber-glow rounded-full" />
-                  Ethical & Responsible Practices
+                  Security Framework Implementation
                 </li>
                 <li className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-cyber-glow rounded-full" />
-                  Collaborative Problem Solving
+                  Application Security Development
                 </li>
               </ul>
             </Card>

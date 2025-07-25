@@ -9,8 +9,8 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "hello@getsmandy.in",
-      href: "mailto:hello@getsmandy.in"
+      value: "contact@getsmandy.in",
+      href: "mailto:contact@getsmandy.in"
     },
     {
       icon: MapPin,
@@ -21,14 +21,14 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "Connect with me",
-      href: "https://linkedin.com/in/smandy"
+      value: "linkedin.com/in/sai-m-721384221",
+      href: "https://www.linkedin.com/in/sai-m-721384221/"
     },
     {
       icon: Github,
       label: "GitHub",
       value: "View my projects",
-      href: "https://github.com/smandy"
+      href: "https://github.com"
     }
   ];
 
